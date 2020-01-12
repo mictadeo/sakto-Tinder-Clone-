@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>934195445711-fu30b14s1a8d62tvldog8se7n466pq00.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.934195445711-fu30b14s1a8d62tvldog8se7n466pq00</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBBQbzG7wp8HYVpWKjxLJePUply1J3dS2g</string>
+	<key>GCM_SENDER_ID</key>
+	<string>934195445711</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.tadeoman.sakto</string>
+	<key>PROJECT_ID</key>
+	<string>sakto-86f5c</string>
+	<key>STORAGE_BUCKET</key>
+	<string>sakto-86f5c.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:934195445711:ios:0767fc2d38b040221f1cba</string>
+	<key>DATABASE_URL</key>
+	<string>https://sakto-86f5c.firebaseio.com</string>
+</dict>
+</plist>

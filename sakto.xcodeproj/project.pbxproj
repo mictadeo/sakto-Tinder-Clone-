@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F255F8E7F9FF99DB92FABCB7 /* Pods_sakto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE80F24529316398EF29B64 /* Pods_sakto.framework */; };
+		FD34B4AA23C7F331000C1C75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD34B4A923C7F331000C1C75 /* AppDelegate.swift */; };
+		FD34B4AC23C7F331000C1C75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD34B4AB23C7F331000C1C75 /* SceneDelegate.swift */; };
+		FD34B4AE23C7F331000C1C75 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD34B4AD23C7F331000C1C75 /* ContentView.swift */; };
+		FD34B4B023C7F333000C1C75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD34B4AF23C7F333000C1C75 /* Assets.xcassets */; };
+		FD34B4B323C7F333000C1C75 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD34B4B223C7F333000C1C75 /* Preview Assets.xcassets */; };
+		FD34B4B623C7F333000C1C75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD34B4B423C7F333000C1C75 /* LaunchScreen.storyboard */; };
+		FD6EB91823C7FFED00E6F450 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = FD6EB91723C7FFED00E6F450 /* SDWebImageSwiftUI */; };
+		FDC513D423CA740300E80719 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FDC513D323CA740300E80719 /* GoogleService-Info.plist */; };
+		FDC513D723CA98F800E80719 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC513D623CA98F800E80719 /* TopView.swift */; };
+		FDC513D923CA99AB00E80719 /* BottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC513D823CA99AB00E80719 /* BottomView.swift */; };
+		FDC513DB23CA9A1000E80719 /* SwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC513DA23CA9A1000E80719 /* SwipeView.swift */; };
+		FDC513DD23CA9ABD00E80719 /* SwipeDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC513DC23CA9ABD00E80719 /* SwipeDetailsView.swift */; };
+		FDC513DF23CA9B8200E80719 /* observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC513DE23CA9B8200E80719 /* observer.swift */; };
+		FDC513E323CA9C6800E80719 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC513E223CA9C6800E80719 /* Loader.swift */; };
+		FDC513E623CA9D1200E80719 /* datatype.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC513E523CA9D1200E80719 /* datatype.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A5DA84C33AB6CF17881A840 /* Pods-sakto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sakto.release.xcconfig"; path = "Target Support Files/Pods-sakto/Pods-sakto.release.xcconfig"; sourceTree = "<group>"; };
+		AAE80F24529316398EF29B64 /* Pods_sakto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sakto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADDAB0DD1F5AEC751FFB4879 /* Pods-sakto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sakto.debug.xcconfig"; path = "Target Support Files/Pods-sakto/Pods-sakto.debug.xcconfig"; sourceTree = "<group>"; };
+		FD34B4A623C7F331000C1C75 /* sakto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sakto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD34B4A923C7F331000C1C75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD34B4AB23C7F331000C1C75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FD34B4AD23C7F331000C1C75 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FD34B4AF23C7F333000C1C75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD34B4B223C7F333000C1C75 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FD34B4B523C7F333000C1C75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD34B4B723C7F333000C1C75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDC513D323CA740300E80719 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FDC513D623CA98F800E80719 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		FDC513D823CA99AB00E80719 /* BottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomView.swift; sourceTree = "<group>"; };
+		FDC513DA23CA9A1000E80719 /* SwipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeView.swift; sourceTree = "<group>"; };
+		FDC513DC23CA9ABD00E80719 /* SwipeDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeDetailsView.swift; sourceTree = "<group>"; };
+		FDC513DE23CA9B8200E80719 /* observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = observer.swift; sourceTree = "<group>"; };
+		FDC513E223CA9C6800E80719 /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		FDC513E523CA9D1200E80719 /* datatype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = datatype.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD34B4A323C7F331000C1C75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD6EB91823C7FFED00E6F450 /* SDWebImageSwiftUI in Frameworks */,
+				F255F8E7F9FF99DB92FABCB7 /* Pods_sakto.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B003945EA2C6AD066663544 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAE80F24529316398EF29B64 /* Pods_sakto.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDCE25AEEB59271E3CB3005F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ADDAB0DD1F5AEC751FFB4879 /* Pods-sakto.debug.xcconfig */,
+				3A5DA84C33AB6CF17881A840 /* Pods-sakto.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FD34B49D23C7F331000C1C75 = {
+			isa = PBXGroup;
+			children = (
+				FD34B4A823C7F331000C1C75 /* sakto */,
+				FD34B4A723C7F331000C1C75 /* Products */,
+				DDCE25AEEB59271E3CB3005F /* Pods */,
+				8B003945EA2C6AD066663544 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FD34B4A723C7F331000C1C75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD34B4A623C7F331000C1C75 /* sakto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD34B4A823C7F331000C1C75 /* sakto */ = {
+			isa = PBXGroup;
+			children = (
+				FDC513D523CA989500E80719 /* SwiftUI */,
+				FD34B4A923C7F331000C1C75 /* AppDelegate.swift */,
+				FD34B4AB23C7F331000C1C75 /* SceneDelegate.swift */,
+				FD34B4AD23C7F331000C1C75 /* ContentView.swift */,
+				FD34B4AF23C7F333000C1C75 /* Assets.xcassets */,
+				FD34B4B423C7F333000C1C75 /* LaunchScreen.storyboard */,
+				FDC513D323CA740300E80719 /* GoogleService-Info.plist */,
+				FD34B4B723C7F333000C1C75 /* Info.plist */,
+				FD34B4B123C7F333000C1C75 /* Preview Content */,
+			);
+			path = sakto;
+			sourceTree = "<group>";
+		};
+		FD34B4B123C7F333000C1C75 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FD34B4B223C7F333000C1C75 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FDC513D523CA989500E80719 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				FDC513D623CA98F800E80719 /* TopView.swift */,
+				FDC513D823CA99AB00E80719 /* BottomView.swift */,
+				FDC513DA23CA9A1000E80719 /* SwipeView.swift */,
+				FDC513DC23CA9ABD00E80719 /* SwipeDetailsView.swift */,
+				FDC513DE23CA9B8200E80719 /* observer.swift */,
+				FDC513E223CA9C6800E80719 /* Loader.swift */,
+				FDC513E523CA9D1200E80719 /* datatype.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD34B4A523C7F331000C1C75 /* sakto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD34B4BA23C7F333000C1C75 /* Build configuration list for PBXNativeTarget "sakto" */;
+			buildPhases = (
+				02C3B82067DDAF9DCDDA9AA7 /* [CP] Check Pods Manifest.lock */,
+				FD34B4A223C7F331000C1C75 /* Sources */,
+				FD34B4A323C7F331000C1C75 /* Frameworks */,
+				FD34B4A423C7F331000C1C75 /* Resources */,
+				A0B1348E91486DE5F1203E51 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sakto;
+			packageProductDependencies = (
+				FD6EB91723C7FFED00E6F450 /* SDWebImageSwiftUI */,
+			);
+			productName = sakto;
+			productReference = FD34B4A623C7F331000C1C75 /* sakto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD34B49E23C7F331000C1C75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Tadeo Man";
+				TargetAttributes = {
+					FD34B4A523C7F331000C1C75 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = FD34B4A123C7F331000C1C75 /* Build configuration list for PBXProject "sakto" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD34B49D23C7F331000C1C75;
+			packageReferences = (
+				FD6EB91623C7FFED00E6F450 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
+			productRefGroup = FD34B4A723C7F331000C1C75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD34B4A523C7F331000C1C75 /* sakto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD34B4A423C7F331000C1C75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD34B4B623C7F333000C1C75 /* LaunchScreen.storyboard in Resources */,
+				FDC513D423CA740300E80719 /* GoogleService-Info.plist in Resources */,
+				FD34B4B323C7F333000C1C75 /* Preview Assets.xcassets in Resources */,
+				FD34B4B023C7F333000C1C75 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02C3B82067DDAF9DCDDA9AA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sakto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0B1348E91486DE5F1203E51 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sakto/Pods-sakto-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sakto/Pods-sakto-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sakto/Pods-sakto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD34B4A223C7F331000C1C75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD34B4AA23C7F331000C1C75 /* AppDelegate.swift in Sources */,
+				FDC513DF23CA9B8200E80719 /* observer.swift in Sources */,
+				FD34B4AC23C7F331000C1C75 /* SceneDelegate.swift in Sources */,
+				FDC513D723CA98F800E80719 /* TopView.swift in Sources */,
+				FDC513DB23CA9A1000E80719 /* SwipeView.swift in Sources */,
+				FD34B4AE23C7F331000C1C75 /* ContentView.swift in Sources */,
+				FDC513DD23CA9ABD00E80719 /* SwipeDetailsView.swift in Sources */,
+				FDC513D923CA99AB00E80719 /* BottomView.swift in Sources */,
+				FDC513E323CA9C6800E80719 /* Loader.swift in Sources */,
+				FDC513E623CA9D1200E80719 /* datatype.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FD34B4B423C7F333000C1C75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD34B4B523C7F333000C1C75 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD34B4B823C7F333000C1C75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD34B4B923C7F333000C1C75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD34B4BB23C7F333000C1C75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADDAB0DD1F5AEC751FFB4879 /* Pods-sakto.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"sakto/Preview Content\"";
+				DEVELOPMENT_TEAM = V3Q43US36D;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = sakto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tadeoman.sakto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FD34B4BC23C7F333000C1C75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A5DA84C33AB6CF17881A840 /* Pods-sakto.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"sakto/Preview Content\"";
+				DEVELOPMENT_TEAM = V3Q43US36D;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = sakto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tadeoman.sakto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD34B4A123C7F331000C1C75 /* Build configuration list for PBXProject "sakto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD34B4B823C7F333000C1C75 /* Debug */,
+				FD34B4B923C7F333000C1C75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD34B4BA23C7F333000C1C75 /* Build configuration list for PBXNativeTarget "sakto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD34B4BB23C7F333000C1C75 /* Debug */,
+				FD34B4BC23C7F333000C1C75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FD6EB91623C7FFED00E6F450 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FD6EB91723C7FFED00E6F450 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FD6EB91623C7FFED00E6F450 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FD34B49E23C7F331000C1C75 /* Project object */;
+}
